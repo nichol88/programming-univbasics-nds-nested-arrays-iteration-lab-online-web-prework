@@ -11,7 +11,7 @@ def join_ingredients(src)
   while src[outerindex] do
     newary.push("I love #{src[outerindex][0]} and #{src[outerindex][1]} on my pizza")
   end
-
+  newary
 end
 
 def find_greater_pair(src)
