@@ -19,7 +19,7 @@ def join_ingredients(src)
 
     row_index += 1
 
-    output.push(["I love #{new_array[0]} and #{new_array[1]} on my pizza"])
+    output.push("I love #{new_array[0]} and #{new_array[1]} on my pizza")
     output
   end
 
