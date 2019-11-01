@@ -27,6 +27,7 @@ def find_greater_pair(src)
     elsif src[index][1] > src[index][0]
       newary.push(src[index][1])
     else
+      newary.push(src[index][0])
     end
     index += 1
   end
