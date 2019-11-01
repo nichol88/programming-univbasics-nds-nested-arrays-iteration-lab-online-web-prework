@@ -15,8 +15,9 @@ def join_ingredients(src)
       new_array += src[row_index][element_index]
       element_index += 1
     end
-    puts "I love #{new_array[0]} and #{new_array[1]} on my pizza"
+
     row_index += 1
+    return "I love #{new_array[0]} and #{new_array[1]} on my pizza"
   end
 
 
