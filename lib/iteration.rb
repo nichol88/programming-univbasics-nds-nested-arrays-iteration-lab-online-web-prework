@@ -42,4 +42,16 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+  newary = []
+  index = 0
+  while index < src.length
+    if src[index][0] % 2 == 0 && src[index][1] % 2 == 0
+      newary.push(src[index][0])
+      newary.push(src[index][1])
+    else
+    end
+    index += 1
+  end
+  newary
+end
 end
