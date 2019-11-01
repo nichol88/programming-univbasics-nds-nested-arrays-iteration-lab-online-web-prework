@@ -6,23 +6,11 @@ def join_ingredients(src)
   #
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
-
-  row_index = 0
-  output = []
-  while row_index < src.length do
-    element_index = 0
-    new_array = []
-    while element_index < src[row_index].length do
-      new_array.push(src[row_index][element_index])
-      element_index += 1
-    end
-
-    row_index += 1
-
-    output.push("I love #{new_array[0]} and #{new_array[1]} on my pizza")
-    output
+  outerindex = 0
+  newary = []
+  while src[outerindex] do
+    newary.push("I love #{src[outerindex][0]} and #{src[outerindex][1]} on my pizza")
   end
-
 
 end
 
