@@ -46,8 +46,7 @@ def total_even_pairs(src)
   index = 0
   while index < src.length
     if src[index][0] % 2 == 0 && src[index][1] % 2 == 0
-      newary.push(src[index][0])
-      newary.push(src[index][1])
+      newary.push(src[index][0] + src[index][1])
     else
     end
     index += 1
