@@ -10,6 +10,7 @@ def join_ingredients(src)
   newary = []
   while outerindex < src.length do
     newary.push("I love #{src[outerindex][0]} and #{src[outerindex][1]} on my pizza")
+    outerindex += 1
   end
   newary
 end
