@@ -12,7 +12,7 @@ def join_ingredients(src)
     element_index = 0
     new_array = []
     while element_index < src[row_index].length do
-      new_array += src[row_index][element_index]
+      new_array.push(src[row_index][element_index])
       element_index += 1
     end
 
