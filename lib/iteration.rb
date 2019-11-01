@@ -28,7 +28,8 @@ def find_greater_pair(src)
       newary.push(src[index][1])
     else
     end
-  index += 1
+    index += 1
+  end
   newary
 end
 
