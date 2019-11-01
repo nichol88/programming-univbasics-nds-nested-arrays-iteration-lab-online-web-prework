@@ -24,11 +24,11 @@ def find_greater_pair(src)
   while index < src.length
     if src[index][0] > src[index][1]
       newary.push(src[index][0])
+    elsif src[index][1] > src[index][0]
+      newary.push(src[index][1])
+    else
     end
-  elsif src[index][1] > src[index][0]
-    newary.push(src[index][1])
-  else
-  end
+  index += 1
   newary
 end
 
