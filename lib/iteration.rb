@@ -8,7 +8,7 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   outerindex = 0
   newary = []
-  while src[outerindex] do
+  while outerindex < src.length do
     newary.push("I love #{src[outerindex][0]} and #{src[outerindex][1]} on my pizza")
   end
   newary
